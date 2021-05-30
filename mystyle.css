@@ -8,12 +8,17 @@ html {
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100%;
 }
 
 
-
+#controls{
+    width:400px;
+    border: 1px solid black;
+    height: 60PX;
+}
 
 
 #container {
